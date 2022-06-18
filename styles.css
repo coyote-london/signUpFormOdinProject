@@ -1,0 +1,41 @@
+body {
+    display: flex;
+}
+
+h1 {
+    margin: 100px
+}
+
+h2 {
+    font-size: 16px;
+}
+
+button {
+    margin: 10px;
+}
+
+fieldset {
+    display: flex;
+}
+
+#formBody {
+    display: flex;
+    flex-direction: column;
+}
+
+#formContainer {
+    display: flex;
+    flex-direction: column;
+    max-height: 20px;
+}
+
+.formRow {
+    display:flex;
+    margin: 8px;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+}
