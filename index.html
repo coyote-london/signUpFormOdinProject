@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Odin Sign Up Form Project</title>
 </head>
 <body>
+    <div id="odinBox" class="headingBar">
+        <h1>ODIN</h1>
+
+    </div>
     
+    <div>
+        <p>This is not a real online service! You know
+            you need something like this in your life
+            to help you realize your deepest dreams. <br>
+            Sign up <em>now</em> to get started.
+        </p>
+        <h2>You <em>know</em> you want to.</h2>    
+    </div>
+    <form action="http://httpbin.org/post" method="post">
+        <fieldset>
+            <legend>Let's do this!</legend>
+            <div id="names" class="formRow">
+                <label for="firstName">FIRST NAME</label>
+                <input type="text" id="firstName" name="firstName">
+                <label for="lastName">LAST NAME</label>
+                <input type="text" id="lastName" name="lastName">    
+            </div>
+            <div id="contact" class="formRow">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email">
+                <label for="phoneNumber">PHONE NUMBER</label>
+                <input type="number" id="phoneNumber" name="phoneNumber">
+            </div>
+            <div id="password" class="formRow">
+                <label for="passwordInput">PASSWORD</label>
+                <input type="password" id="passwordInput" name="passwordInput">
+                <label for="passwordConfirm">CONFIRM PASSWORD</label>
+                <input type="password" id="passwordConfirm" name="passwordConfirm"> 
+            </div>
+        </fieldset>
+        <button type="submit">Create Account</button>
+    </form>
+    <h3>Already have an account? 
+        <a href="https://www.theodinproject.com/login">
+        Log In
+        </a>
+    </h3>
 </body>
 </html>
