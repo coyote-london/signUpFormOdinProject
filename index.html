@@ -9,9 +9,10 @@
     <title>Odin Sign Up Form Project</title>
 </head>
 <body>
+    <div id="spacerTopLeft"></div>
     <div id="odinBox" class="headingBar">
+        <img src="odin-lined.png">
         <h1>ODIN</h1>
-
     </div>
     
     <div id="formContainer">
@@ -23,47 +24,45 @@
         <h2>You <em>know</em> you want to.</h2>    
     
     <form action="http://httpbin.org/post" method="post">
-        <fieldset>
-            <div id="formBody">
-                <legend class="formInput">Let's do this!</legend>
-                <div id="names" class="formRow">
-                    <div id="firstNameInput" class="formInput">
-                        <label for="firstName">FIRST NAME</label>
-                        <input type="text" id="firstName" name="firstName">    
-                    </div>
-                    <div id="lastNameInput" class="formInput">
-                        <label for="lastName">LAST NAME</label>
-                        <input type="text" id="lastName" name="lastName">        
-                    </div>
+        <div id="formBody">
+            <h4 class="formInput">Let's do this!</legend>
+            <div id="names" class="formRow">
+                <div id="firstNameInput" class="formInput">
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName" name="firstName">    
                 </div>
-                <div id="contact" class="formRow">
-                    <div id="emailInput" class="formInput">
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email">    
-                    </div>
-                    <div id="phoneNumberInput" class="formInput">
-                        <label for="phoneNumber">PHONE NUMBER</label>
-                        <input type="number" id="phoneNumber" name="phoneNumber">                            
-                    </div>
+                <div id="lastNameInput" class="formInput">
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" id="lastName" name="lastName">        
                 </div>
-                <div id="password" class="formRow">
-                    <div id="passwordInput" class="formInput">
-                        <label for="passwordInput">PASSWORD</label>
-                        <input type="password" id="passwordInput" name="passwordInput">    
-                    </div>
-                    <div id="confirmPasswordInput" class="formInput">
-                        <label for="passwordConfirm">CONFIRM PASSWORD</label>
-                        <input type="password" id="passwordConfirm" name="passwordConfirm">     
-                    </div>
-                </div>
-            </fieldset>
-            <button type="submit">Create Account</button>
-            <h3>Already have an account? 
-                <a href="https://www.theodinproject.com/login">
-                Log In
-                </a>
-            </h3>        
             </div>
+            <div id="contact" class="formRow">
+                <div id="emailInput" class="formInput">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email">    
+                </div>
+                <div id="phoneNumberInput" class="formInput">
+                    <label for="phoneNumber">PHONE NUMBER</label>
+                    <input type="number" id="phoneNumber" name="phoneNumber">                            
+                </div>
+            </div>
+            <div id="password" class="formRow">
+                <div id="passwordInput" class="formInput">
+                    <label for="passwordInput">PASSWORD</label>
+                    <input type="password" id="passwordInput" name="passwordInput">    
+                </div>
+                <div id="confirmPasswordInput" class="formInput">
+                    <label for="passwordConfirm">CONFIRM PASSWORD</label>
+                    <input type="password" id="passwordConfirm" name="passwordConfirm">     
+                </div>
+            </div>
+        </div>
+        <button type="submit">Create Account</button>
+        <h3>Already have an account? 
+            <a href="https://www.theodinproject.com/login">
+            Log In
+            </a>
+        </h3>        
     </form>
     </div>
 </body>
