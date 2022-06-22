@@ -29,31 +29,57 @@
             <div id="names" class="formRow">
                 <div id="firstNameInput" class="formInput">
                     <label for="firstName">FIRST NAME</label>
-                    <input type="text" id="firstName" name="firstName">    
+                    <input type="text" 
+                           id="firstName" 
+                           name="firstName" 
+                           placeholder="John" 
+                           required>    
                 </div>
                 <div id="lastNameInput" class="formInput">
                     <label for="lastName">LAST NAME</label>
-                    <input type="text" id="lastName" name="lastName">        
+                    <input type="text" 
+                           id="lastName" 
+                           name="lastName" 
+                           placeholder="Doe" 
+                           required>        
                 </div>
             </div>
             <div id="contact" class="formRow">
                 <div id="emailInput" class="formInput">
                     <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email">    
+                    <input type="email" 
+                           id="email" 
+                           name="email" 
+                           placeholder="JohnDoe@email.com" required>    
                 </div>
                 <div id="phoneNumberInput" class="formInput">
                     <label for="phoneNumber">PHONE NUMBER</label>
-                    <input type="number" id="phoneNumber" name="phoneNumber">                            
+                    <input type="number" 
+                           id="phoneNumber" 
+                           name="phoneNumber"
+                           placeholder="7777777777" 
+                           pattern="(\d{10,})" 
+                           required>                            
                 </div>
             </div>
             <div id="password" class="formRow">
                 <div id="passwordInput" class="formInput">
                     <label for="passwordInput">PASSWORD</label>
-                    <input type="password" id="passwordInput" name="passwordInput">    
+                    <input type="password" 
+                           id="passwordInput" 
+                           name="passwordInput" 
+                           placeholder=" "  
+                           pattern="(?=.*\d)(?=.*[a-z)(?=.*[A-Z]).{6,}" 
+                           required>    
                 </div>
                 <div id="confirmPasswordInput" class="formInput">
                     <label for="passwordConfirm">CONFIRM PASSWORD</label>
-                    <input type="password" id="passwordConfirm" name="passwordConfirm">     
+                    <input type="password" 
+                           id="passwordConfirm" 
+                           name="passwordConfirm"  
+                           placeholder=" " 
+                           pattern="(?=.*\d)(?=.*[a-z)(?=.*[A-Z]).{6,}" 
+                           required>     
                 </div>
             </div>
         </div>
