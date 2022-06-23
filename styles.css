@@ -16,7 +16,7 @@ html, body {
 body {
     display: flex;
     background-image: url("fog-coast-riccardo-gazzin-unsplash.jpg");
-    background-size: 90vh
+    background-size: 100vh;
 }
 
 h1 {
@@ -41,6 +41,7 @@ img {
     padding-bottom: 1rem;
     opacity: .7;
     max-height: 5rem;
+    min-width: 25vw;
 }
 
 #formContainer {
