@@ -3,6 +3,12 @@
     src: url("Norse-Bold.otf");
 }
 
+@media screen {
+    body {
+        font-size: 1.7vw;
+    }
+}
+
 html, body {
     margin: 0;
 }
