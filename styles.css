@@ -50,6 +50,7 @@ img {
     padding-top: 5rem;
     padding-bottom: 3rem;
     border: .15rem solid rgb(16, 20, 26);
+    min-height: 100vh;
 }
 
 h2 {
